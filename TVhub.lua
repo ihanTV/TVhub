@@ -10,9 +10,12 @@ local TVhub = {}
 TVhub.Name = "TVhub"
 TVhub.Version = "1.0"
 
+-- Modules
+TVhub.Modules = {}
+
 function TVhub:Start()
-    print("TVhub iniciado!")
-    print("Versao: " .. self.Version)
+    print("TVhub started!")
+    print("Version: " .. self.Version)
 end
 
 TVhub:Start()
