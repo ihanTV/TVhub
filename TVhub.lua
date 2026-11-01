@@ -11,7 +11,9 @@ TVhub.Name = "TVhub"
 TVhub.Version = "1.0"
 
 -- Modules
-TVhub.Modules = {}
+TVhub.Modules = {
+    Interface = require(script.Modules.Interface)
+}
 
 function TVhub:Start()
     print("TVhub started!")
